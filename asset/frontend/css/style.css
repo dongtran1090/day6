@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Đảm bảo body chiếm hết chiều cao của cửa sổ trình duyệt */
+}
+
+main {
+    flex: 1; /* Cho phép phần main chiếm phần còn lại của chiều cao */
+}
+
+.carousel-item{
+    height: 32rem; /* Chiều cao của mỗi item trong carousel */
+}
+
+.carousel-item img {
+    width: 100%; /* Đảm bảo hình ảnh chiếm toàn bộ chiều rộng của item */
+    height: 285px; /* Đảm bảo hình ảnh chiếm toàn bộ chiều cao của item */
+}
+
+.form-signin {
+    max-width: 400px;
+    padding: 1rem;
+}
